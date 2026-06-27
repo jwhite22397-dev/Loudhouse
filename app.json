@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "LoudHouse Studios",
+    "slug": "loudhouse-studios",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#07060F",
+    "splash": {
+      "backgroundColor": "#07060F",
+      "resizeMode": "contain",
+      "image": "./assets/splash-icon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.loudhousestudios.app"
+    },
+    "android": {
+      "package": "com.loudhousestudios.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#07060F",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-audio"
+    ]
+  }
+}
