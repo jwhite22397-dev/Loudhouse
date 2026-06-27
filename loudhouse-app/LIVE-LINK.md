@@ -2,7 +2,7 @@
 
 **Open on your phone:** https://jwhite22397-dev.github.io/Loudhouse/
 
-If the link does not load yet, wait 1-2 minutes after the latest deploy finishes.
+Deployed and live on GitHub Pages.
 
 ## Add to Home Screen
 
