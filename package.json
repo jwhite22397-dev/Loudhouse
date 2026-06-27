@@ -1,0 +1,35 @@
+{
+  "name": "loudhouse-mobile",
+  "version": "1.0.0",
+  "description": "LoudHouse Studios mobile app built with Expo.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwhite22397-dev/Loudhouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwhite22397-dev/Loudhouse/issues"
+  },
+  "homepage": "https://github.com/jwhite22397-dev/Loudhouse#readme",
+  "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
+    "expo": "^56.0.12",
+    "expo-status-bar": "^56.0.4",
+    "react": "^19.2.7",
+    "react-native": "^0.86.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "typescript": "^6.0.3"
+  }
+}

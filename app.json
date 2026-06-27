@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "LoudHouse Studios",
+    "slug": "loudhouse-studios",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "loudhouse",
+    "platforms": ["ios", "android", "web"],
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.loudhousestudios.mobile"
+    },
+    "android": {
+      "package": "com.loudhousestudios.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#090909"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "extra": {
+      "studioWebsite": "https://www.loudhousestudios.com"
+    }
+  }
+}
